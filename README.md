@@ -18,3 +18,16 @@ and backen technology like nodejs,express,mongoDB and Socket.io
 ** Chat image **
 
 ![SignUp image](./images/chat2.png)
+
+## How to start
+
+** FRONTEND **
+
+- navigate to frontend
+- run `npm start` or ``yarn start`
+
+** BACKEND **
+
+- start your mongodb server if not
+- run `cd backend`
+- run `node server`
