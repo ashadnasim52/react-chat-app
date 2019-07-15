@@ -3,30 +3,30 @@
 React chat is built with the frontend technoligy linke reactjs
 and backen technology like nodejs,express,mongoDB and Socket.io
 
-** sign in image of **
+**sign in image of**
 
 ![Signin image](./images/signin.png)
 
-** Signup Image **
+**Signup Image**
 
 ![SignUp image](./images/signup.png)
 
-** Chat image **
+**Chat image**
 
 ![SignUp image](./images/chat.png)
 
-** Chat image **
+**Chat image**
 
 ![SignUp image](./images/chat2.png)
 
 ## How to start
 
-** FRONTEND **
+**FRONTEND**
 
 - navigate to frontend
 - run `npm start` or ``yarn start`
 
-** BACKEND **
+**BACKEND**
 
 - start your mongodb server if not
 - run `cd backend`
