@@ -24,7 +24,7 @@ and backen technology like nodejs,express,mongoDB and Socket.io
 **FRONTEND**
 
 - navigate to frontend
-- run `npm start` or ``yarn start`
+- run `npm start` or `yarn start`
 
 **BACKEND**
 

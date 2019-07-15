@@ -1,0 +1,28 @@
+//staring from new
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: 'Roboto Slab', serif;
+    background-color: $colorFive;
+
+}
+
+p {
+    margin-bottom: 0px;
+}

@@ -1,0 +1,122 @@
+.chat-section2 {
+  height: 90vh;
+  width: 100%;
+}
+
+.chatArea {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: flex-start;
+  // height:100%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .chatArea1 {
+    background-color: blueviolet;
+    // display: none;
+    width: 100%;
+    height: 60px;
+
+    .chatArea1-image-wrapper {
+      position: relative;
+
+      &-image {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 50%;
+        width: auto;
+        height: 60px;
+      }
+
+      &-text {
+        // padding: 10px;
+        margin-left: 70px;
+        color: $colorWhite;
+      }
+    }
+  }
+
+  .chatArea2 {
+    background-color: rgb(14, 13, 15);
+    flex: 1 1 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    overflow: auto;
+    flex: 1;
+    overflow: auto;
+
+    &-messages {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      list-style-type: none;
+
+      .chatArea2-message {
+        background-color: $colorSix;
+        padding: 2px;
+        box-shadow: 0 1px 1px 1px rgba($color: #000000, $alpha: 0.2);
+        border-radius: 5px;
+        flex-wrap: wrap;
+        margin: 4px;
+        max-width: 75%;
+        word-break: break-word;
+      }
+
+      .right {
+      }
+
+      .left {
+      }
+    }
+  }
+
+  .chatArea3 {
+    background-color: rgb(116, 226, 43);
+    flex: 0 0 32px;
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+
+    &-form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-input {
+        flex-grow: 9;
+        padding: 5px;
+        margin: 5px;
+        font-size: 2rem;
+      }
+
+      &-button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+
+        .icon {
+          font-size: 2.5rem;
+          color: $colorWhite;
+        }
+      }
+
+      .icon {
+        font-size: 2.9rem;
+        color: $colorWhite;
+      }
+    }
+  }
+}
+
+.chatArea2-messages .right {
+  align-items: flex-end;
+}

@@ -1,0 +1,47 @@
+.user {
+    overflow: auto;
+    // overflow-anchor: $colorOne;
+    display: grid;
+    grid-template-columns: 60px 190px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.11);
+
+    &:nth-child(even) {
+        background-color: rgba($colorOne, .2);
+    }
+}
+
+.chat-section1 {
+    .Switch-user {
+        text-align: center;
+
+        .chat-users-holder {}
+    }
+}
+
+.user-image-container {
+    padding-right: 5px;
+
+
+    &-image {
+        width: 50px;
+        height: auto;
+        border-radius: 50%;
+        margin: 5px;
+    }
+}
+
+.user-details {
+    display: grid;
+    grid-template-rows: 50% 50%fr;
+
+    &-name {
+        text-align: center;
+        font-size: 2rem;
+
+    }
+
+    &-lastChat {
+        text-align: left;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,23 @@
+.input {
+    margin-top: 5px;
+
+    label {
+        display: block;
+        color: rgba($color: $colorBlack, $alpha: .5)
+    }
+
+    input {
+        display: block;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: $colorBlack;
+        font-size: 2rem;
+        border-bottom: 2px solid rgba($color: $colorBlack, $alpha: .5);
+
+        &:focus {
+            background-color: $colorWhite;
+
+        }
+    }
+}
