@@ -37,4 +37,4 @@ and backen technology like nodejs,express,mongoDB and Socket.io
 Thier may be some bug which need to be addressed ,
 One of them is that chat doesn't update in UI while the chat is logged on console
 
-**I will address all of them when I will got time**
+**I will address all of them when I will got time.**
